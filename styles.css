@@ -92,6 +92,8 @@ main {
   padding: 4.4375rem 1.5rem;
 }
 main section {
+  margin: 0 auto;
+  max-width: 1110px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
