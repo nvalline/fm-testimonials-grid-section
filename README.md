@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/css-grid-area-w-sass-KoT48gBWBz)
 - Live Site URL: [Here](https://nv-testimonials-grid.netlify.app/)
 
 ## My process
