@@ -1,0 +1,134 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove Default Spacing */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.2;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-style: normal;
+}
+
+main {
+  padding: 4.4375rem 1.5rem;
+}
+main section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+main section .card {
+  padding: 1.625rem 2rem 2rem;
+  border-radius: 8px;
+  box-shadow: 40px 60px 50px -47px hsla(217, 19%, 35%, 0.2474);
+}
+main section .card .authorBlock {
+  margin-bottom: 1.125rem;
+  display: flex;
+  align-items: center;
+  gap: 1.0625rem;
+}
+main section .card .authorBlock img {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+main section .card .authorBlock div h3 {
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+main section .card .authorBlock div p {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  opacity: 0.5;
+}
+main section .card .testimonial {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+main section .card .review {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.539;
+  opacity: 0.7;
+}/*# sourceMappingURL=styles.css.map */

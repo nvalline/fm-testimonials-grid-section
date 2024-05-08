@@ -2,6 +2,7 @@
 
 // Primary Colors
 $violet: hsl(263, 55%, 52%);
+$lightViolet: hsl(264, 82%, 70%);
 $darkGrayBlue: hsl(217, 19%, 35%);
 $darkBlackBlue: hsl(219, 29%, 14%);
 $white: hsl(0, 0%, 100%);
@@ -9,13 +10,12 @@ $white: hsl(0, 0%, 100%);
 // Neutral Colors
 $lightGray: hsl(0, 0%, 81%);
 $lightGrayBlue: hsl(210, 46%, 95%);
+$shadow: hsla(217, 19%, 35%, 0.2474);
 
 // ----- Typography -----
 
 // Font-Family
 $font-primary: 'Barlow Semi Condensed', sans-serif;
-
-// Font-Size
 
 // Font-Weight
 $fw-medium: 500;
